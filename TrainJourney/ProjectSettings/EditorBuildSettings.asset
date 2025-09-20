@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/SamplesResources/Scenes/0-Main.unity
+    guid: a09cb257d566c489595b16ab37547666
+  - enabled: 0
+    path: Assets/Scenes/track/TrainTrack.unity
+    guid: e43ca5d9627b79b4d91451cd0a0debef
+  - enabled: 0
+    path: Assets/Scenes/track/TrainFinally.unity
+    guid: 708c9c41a2212e240ba9849e69373803
+  - enabled: 1
+    path: Assets/Scenes/MAIN SCENES/DoublyLL.unity
+    guid: e159ef27473b45e4c92789f6c9a75b51
+  m_configObjects: {}

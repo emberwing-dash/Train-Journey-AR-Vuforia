@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{10B11C2C-232A-DA68-EB45-6D0BAE4B9644}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplineMesh.Editor", "SplineMesh.Editor.csproj", "{19856F4B-81C2-3327-3D65-D7C9A405938E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplineMesh.Runtime", "SplineMesh.Runtime.csproj", "{1C6986FF-EA8C-9822-3F3A-28C84E7E5DE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplineMesh.Colliders", "SplineMesh.Colliders.csproj", "{5A052A30-CF6A-3F73-0902-03341D3D2E1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{FED08027-905C-02A1-081A-2B98A7F98416}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10B11C2C-232A-DA68-EB45-6D0BAE4B9644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B11C2C-232A-DA68-EB45-6D0BAE4B9644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B11C2C-232A-DA68-EB45-6D0BAE4B9644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B11C2C-232A-DA68-EB45-6D0BAE4B9644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19856F4B-81C2-3327-3D65-D7C9A405938E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19856F4B-81C2-3327-3D65-D7C9A405938E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19856F4B-81C2-3327-3D65-D7C9A405938E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19856F4B-81C2-3327-3D65-D7C9A405938E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C6986FF-EA8C-9822-3F3A-28C84E7E5DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C6986FF-EA8C-9822-3F3A-28C84E7E5DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C6986FF-EA8C-9822-3F3A-28C84E7E5DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C6986FF-EA8C-9822-3F3A-28C84E7E5DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A052A30-CF6A-3F73-0902-03341D3D2E1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A052A30-CF6A-3F73-0902-03341D3D2E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A052A30-CF6A-3F73-0902-03341D3D2E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A052A30-CF6A-3F73-0902-03341D3D2E1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED08027-905C-02A1-081A-2B98A7F98416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED08027-905C-02A1-081A-2B98A7F98416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED08027-905C-02A1-081A-2B98A7F98416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED08027-905C-02A1-081A-2B98A7F98416}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
