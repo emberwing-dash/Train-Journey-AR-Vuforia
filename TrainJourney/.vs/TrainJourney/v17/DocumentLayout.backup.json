@@ -7,7 +7,11 @@
       "RelativeMoniker": "D:0:0:{10B11C2C-232A-DA68-EB45-6D0BAE4B9644}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\traincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10B11C2C-232A-DA68-EB45-6D0BAE4B9644}|Assembly-CSharp.csproj|e:\\unity\\proj files\\doublell\\trainjourney\\assets\\scenes\\scripts\\pauseontrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{10B11C2C-232A-DA68-EB45-6D0BAE4B9644}|Assembly-CSharp.csproj|e:\\unity\\proj files\\doublell\\trainjourney\\assets\\scenes\\scripts\\traintrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10B11C2C-232A-DA68-EB45-6D0BAE4B9644}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\traintrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10B11C2C-232A-DA68-EB45-6D0BAE4B9644}|Assembly-CSharp.csproj|E:\\Unity\\proj files\\DoubleLL\\TrainJourney\\assets\\scenes\\scripts\\pauseontrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10B11C2C-232A-DA68-EB45-6D0BAE4B9644}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\pauseontrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrainTrigger.cs",
+              "DocumentMoniker": "E:\\Unity\\proj files\\DoubleLL\\TrainJourney\\Assets\\Scenes\\scripts\\TrainTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\scripts\\TrainTrigger.cs",
+              "ToolTip": "E:\\Unity\\proj files\\DoubleLL\\TrainJourney\\Assets\\Scenes\\scripts\\TrainTrigger.cs",
+              "RelativeToolTip": "Assets\\Scenes\\scripts\\TrainTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T13:26:04.821Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,14 +45,14 @@
               "RelativeDocumentMoniker": "Assets\\Scenes\\scripts\\TrainController.cs",
               "ToolTip": "E:\\Unity\\proj files\\DoubleLL\\TrainJourney\\Assets\\Scenes\\scripts\\TrainController.cs",
               "RelativeToolTip": "Assets\\Scenes\\scripts\\TrainController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T13:25:06.898Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PauseOnTrigger.cs",
               "DocumentMoniker": "E:\\Unity\\proj files\\DoubleLL\\TrainJourney\\Assets\\Scenes\\scripts\\PauseOnTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\scripts\\PauseOnTrigger.cs",
@@ -43,8 +60,7 @@
               "RelativeToolTip": "Assets\\Scenes\\scripts\\PauseOnTrigger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T12:33:03.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-20T12:33:03.025Z"
             }
           ]
         }
