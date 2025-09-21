@@ -15,7 +15,7 @@ E:/Unity/proj files/DoubleLL/TrainJourney
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53445
+64354
 Successfully changed project path to: E:/Unity/proj files/DoubleLL/TrainJourney
 E:/Unity/proj files/DoubleLL/TrainJourney
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,16 +49,16 @@ E:/Unity/proj files/DoubleLL/TrainJourney
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31236]  Target information:
+Player connection [15660]  Target information:
 
-Player connection [31236]  * "[IP] 10.3.172.138 [Port] 0 [Flags] 2 [Guid] 1658227829 [EditorId] 1658227829 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-1ETCPS9F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15660]  * "[IP] 10.3.172.138 [Port] 0 [Flags] 2 [Guid] 2808231584 [EditorId] 2808231584 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-1ETCPS9F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [31236] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [31236] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15660] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15660] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 8478.95 ms, found 6 plugins.
-Preloading 2 native plugins for Editor in 8.75 ms.
+Refreshing native plugins compatible for Editor in 13.79 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 2.83 ms.
 Initialize engine version: 2022.3.62f1 (4af31df58517)
 [Subsystems] Discovering subsystems at path E:/Unity/installation/editor/2022.3.62f1-x86_64/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path E:/Unity/proj files/DoubleLL/TrainJourney/Assets
@@ -73,147 +73,106 @@ Initialize mono
 Mono path[0] = 'E:/Unity/installation/editor/2022.3.62f1-x86_64/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/installation/editor/2022.3.62f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity/installation/editor/2022.3.62f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/installation/editor/2022.3.62f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/Unity/installation/editor/2022.3.62f1-x86_64/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: E:/Unity/installation/editor/2022.3.62f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006955 seconds.
-- Loaded All Assemblies, in  0.416 seconds
+Registered in 0.003966 seconds.
+- Loaded All Assemblies, in  0.304 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 385 ms
+Android Extension - Scanning For ADB Devices 246 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.794 seconds
-Domain Reload Profiling: 1210ms
-	BeginReloadAssembly (121ms)
+- Finished resetting the current domain, in  0.531 seconds
+Domain Reload Profiling: 835ms
+	BeginReloadAssembly (88ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (181ms)
-		LoadAssemblies (121ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (134ms)
+		LoadAssemblies (88ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (178ms)
-			TypeCache.Refresh (177ms)
-				TypeCache.ScanAssembly (162ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (130ms)
+				TypeCache.ScanAssembly (119ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (794ms)
+	FinalizeReload (531ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (739ms)
+		SetupLoadedEditorAssemblies (491ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (523ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (339ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (148ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (105ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'VirtualArtifacts/Primary/dacf9db422af8b6438f0b324442dd372'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'VirtualArtifacts/Primary/515aafa3af3048d18c327fa7af8028a7'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'VirtualArtifacts/Primary/9731678ff16392a4d822454ca1052818'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'VirtualArtifacts/Primary/f6999efe55d11486794f74d92f29a41a'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'VirtualArtifacts/Primary/9499dcfe8b4e7461ba7881c30897fc49'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'VirtualArtifacts/Primary/e9f31b3adce2f48be860b8f6333f867b'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'VirtualArtifacts/Primary/37daebf6e06b3d247b881c003705673d'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'VirtualArtifacts/Primary/3387717991705ce4e8ef033a0e543a06'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'VirtualArtifacts/Primary/84c73dd54cce7454796f8fac022d29c1'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'VirtualArtifacts/Primary/e1a6d107a6d177540bc36d82a9449128'.
-Error loading the file 'VirtualArtifacts/Primary/ab0090fd6aa8c604a828244d4ba93c84'. File is either empty or corrupted, please verify the file contents.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'VirtualArtifacts/Primary/583f8d62eb8224fe1a46dcf200162006'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'VirtualArtifacts/Primary/32a4a0ea998dd6149937d2774781c436'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'VirtualArtifacts/Primary/d3217d58bbd1d2b4aaee933e2e8b9195'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'VirtualArtifacts/Primary/7be84a49bb2cd7e4a9ed097ba22794d0'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'VirtualArtifacts/Primary/106fdba61aee041bb848696298f2a0cb'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'VirtualArtifacts/Primary/a28779cb0a23d45e99974cbfa752905c'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'VirtualArtifacts/Primary/e273462feb9a65948826739f683cc9a9'.
-Error loading the file 'VirtualArtifacts/Primary/1acf9999a7dee47d58842290fc6ac7bb'. File is either empty or corrupted, please verify the file contents.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'VirtualArtifacts/Primary/e690d92c6a6094c218b950b910edb21a'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'VirtualArtifacts/Primary/793eda612f42a4089bcfd0be1ece0a6d'.
-Error loading the file 'VirtualArtifacts/Primary/69c1fb82e4171426ea728835ae1495f8'. File is either empty or corrupted, please verify the file contents.
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.878 seconds
+- Loaded All Assemblies, in  0.588 seconds
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.649 seconds
-Domain Reload Profiling: 1526ms
-	BeginReloadAssembly (172ms)
+- Finished resetting the current domain, in  0.582 seconds
+Domain Reload Profiling: 1170ms
+	BeginReloadAssembly (126ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (609ms)
-		LoadAssemblies (470ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (400ms)
+		LoadAssemblies (271ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (247ms)
-			TypeCache.Refresh (220ms)
-				TypeCache.ScanAssembly (201ms)
-			ScanForSourceGeneratedMonoScriptInfo (18ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (162ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (649ms)
+	FinalizeReload (582ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (496ms)
+		SetupLoadedEditorAssemblies (443ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
+			InitializePlatformSupportModulesInManaged (24ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (364ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (325ms)
 			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 12.60 ms, found 6 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 7.22 ms, found 6 plugins.
 Preloading 2 native plugins for Editor in 0.19 ms.
 Unloading 4264 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (92.1 KB). Loaded Objects now: 5072.
-Memory consumption went from 165.2 MB to 165.2 MB.
-Total: 9.789400 ms (FindLiveObjects: 1.134300 ms CreateObjectMapping: 0.840100 ms MarkObjects: 7.628100 ms  DeleteObjects: 0.185200 ms)
+Memory consumption went from 164.9 MB to 164.8 MB.
+Total: 4.251500 ms (FindLiveObjects: 0.308100 ms CreateObjectMapping: 0.238500 ms MarkObjects: 3.535200 ms  DeleteObjects: 0.168300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -230,13 +189,64 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 884.323435 seconds.
+  path: Assets/Scenes/MAIN SCENES
+  artifactKey: Guid(74b43ab424cd71340b7cb94cc87cef97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MAIN SCENES using Guid(74b43ab424cd71340b7cb94cc87cef97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fd615e05e37e82d0f2e49b6f70854e03') in 0.004662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 7.79 ms, found 6 plugins.
-Preloading 2 native plugins for Editor in 0.17 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (42.2 KB). Loaded Objects now: 5072.
-Memory consumption went from 84.4 MB to 84.4 MB.
-Total: 4.605700 ms (FindLiveObjects: 0.332100 ms CreateObjectMapping: 0.239100 ms MarkObjects: 3.921300 ms  DeleteObjects: 0.111800 ms)
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.339 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.760 seconds
+Domain Reload Profiling: 1099ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (151ms)
+		LoadAssemblies (203ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (760ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (389ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (289ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 7.34 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 4179 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (64.4 KB). Loaded Objects now: 5073.
+Memory consumption went from 148.9 MB to 148.8 MB.
+Total: 4.066500 ms (FindLiveObjects: 0.327600 ms CreateObjectMapping: 0.241700 ms MarkObjects: 3.359600 ms  DeleteObjects: 0.135400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -253,5 +263,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-TcpMessagingSession - receive error
-AssetImportWorkerClient::OnTransportError - code=10054 error=An existing connection was forcibly closed by the remote host.
